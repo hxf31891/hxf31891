@@ -193,7 +193,7 @@
         <div className="spaceship">🛸</div>
         <div className="spaceship2">🛸</div>
         <div className="spaceship3">🛸</div>
-			</div>
+	
 		</div>
 	</foreignObject>
 </svg>
