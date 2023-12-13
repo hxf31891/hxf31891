@@ -64,7 +64,7 @@
 			        }
 			        
 			        .moon {
-					font-size: 12px;
+					font-size: 15px;
 					top: 220vh;
 					left: 30%;
 					position: absolute;
@@ -72,7 +72,7 @@
 			        }
 			        
 			        .planet1 {
-					font-size: 17px;
+					font-size: 20px;
 					top: 175vh;
 					left: 75%;
 					position: absolute;
@@ -80,7 +80,7 @@
 			        }
 			        
 			        .planet2 {
-					font-size: 17px;
+					font-size: 20px;
 					top: 110vh;
 					left: 40%;
 					position: absolute;
@@ -88,7 +88,7 @@
 			        }
 			        
 			        .spaceship {
-					font-size: 22px;
+					font-size: 25px;
 					top: 58vh;
 					left: -10%;
 					position: absolute;
@@ -96,7 +96,7 @@
 			        }
 			        
 			        .spaceship2 {
-					font-size: 22px;
+					font-size: 25px;
 					top: 55vh;
 					right: -10%;
 					position: absolute;
@@ -104,7 +104,7 @@
 			        }
 			        
 			        .spaceship3 {
-					font-size: 22px;
+					font-size: 25px;
 					top: 90vh;
 					right: -10%;
 					position: absolute;
@@ -112,7 +112,7 @@
 			        }
 			        
 			        .satelite {
-					font-size: 20px;
+					font-size: 23px;
 					top: 260vh;
 					left: 90%;
 					position: absolute;
