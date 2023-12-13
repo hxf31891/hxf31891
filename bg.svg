@@ -193,7 +193,7 @@
 				@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
 				.typewriter h1 {
-					font-size: 180%;
+					font-size: 2em;
 					overflow: hidden; 
 					font-family: 'Anonymous Pro', monospace;  
 					border-right: .15em solid orange; 
