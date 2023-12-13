@@ -190,6 +190,7 @@
 			        }
 
 				.typewriter h1 {
+					font-size: 2em;
 					overflow: hidden; 
 					font-family: monospace;
 					border-right: .15em solid orange; 
