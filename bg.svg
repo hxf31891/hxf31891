@@ -201,7 +201,7 @@
 				}
 
 				@media (prefers-color-scheme: dark) {
-					h1 {
+					.typing-demo {
 						color: #fff;
 					}	
 				}
