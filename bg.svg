@@ -183,8 +183,16 @@
         }
 			</style>
 		<div class="container">
-				<h1>Made with HTML &amp; CSS<br/>not an animated GIF</h1>
-				<p>Click to see the source</p>
+		      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+      <div className="moon">🌖</div>
+      <div className="planet1">🪐</div>
+      <div className="planet2">🌎</div>
+      <div className="satelite">🛰️</div>
+      <div className="spaceship">🛸</div>
+      <div className="spaceship2">🛸</div>
+      <div className="spaceship3">🛸</div>
 			</div>
 		</div>
 		</foreignObject>
