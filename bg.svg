@@ -191,8 +191,8 @@
 			        }
 
 				.typing-demo {
-					width: 12ch;
-					animation: typing 2s steps(12), blink .5s step-end infinite alternate;
+					width: 13ch;
+					animation: typing 2s steps(13), blink .5s step-end infinite alternate;
 					white-space: nowrap;
 					overflow: hidden;
 					border-right: 3px solid;
@@ -229,7 +229,7 @@
 				<div class="spaceship">🛸</div>
 				<div class="spaceship2">🛸</div>
 				<div class="spaceship3">🛸</div>
-				<div class="typing-demo">Hey There! 👋</div>
+				<div class="typing-demo">Hey There! 👋 </div>
 			</div>
 		</div>
 	</foreignObject>
