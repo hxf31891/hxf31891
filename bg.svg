@@ -7,7 +7,7 @@
 					display: flex;
 					align-items: center;
 					justify-content: center;
-					padding-bottom: 80px;
+					padding-bottom: 110px;
 <!-- 				  	background: radial-gradient(ellipse at top, #110c1e 0%, rgba(0,0,0,0) 100%);
   					animation: nightSkyAnimation 150s linear infinite; -->
 				}
