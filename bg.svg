@@ -182,7 +182,7 @@
 			            }
 			        }
 
-				h1 {
+				.typewriter h1 {
 					overflow: hidden; 
 					border-right: .15em solid orange; 
 					white-space: nowrap; 
@@ -212,7 +212,9 @@
 				<div class="spaceship">🛸</div>
 				<div class="spaceship2">🛸</div>
 				<div class="spaceship3">🛸</div>
-				<h1>Hey There! 👋</h1>
+				<div class="typewriter">
+					<h1>Hey There! 👋</h1>
+				</div>
 			</div>
 		</div>
 	</foreignObject>
