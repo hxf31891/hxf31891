@@ -190,15 +190,18 @@
 			            }
 			        }
 
+				@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
 				.typewriter h1 {
-					font-size: 2em;
+					font-size: 180%;
 					overflow: hidden; 
-					font-family: monospace;
+					font-family: 'Anonymous Pro', monospace;  
 					border-right: .15em solid orange; 
 					white-space: nowrap; 
 					margin: 0 auto; 
-					letter-spacing: .15em;
-					animation: typing 3.5s steps(25, end), blink-caret .5s step-end infinite;
+				
+					animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
 				}
 
 				@media (prefers-color-scheme: dark) {
@@ -207,15 +210,14 @@
 					}	
 				}
 				
-				@keyframes typing {
-					from { width: 0 }
-					to { width: 100% }
-				}
-				
-				@keyframes blink-caret {
-					from, to { border-color: transparent }
-					50% { border-color: orange; }
-				}
+		@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
 			</style>
 			<div class="container">
 				<div id="stars"></div>
