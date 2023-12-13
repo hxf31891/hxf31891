@@ -1,5 +1,7 @@
 ### Hi there 👋
 
 <div align="center">
-    <img src="example.svg" width="400" height="400" alt="css-in-readme">
+	<br>
+    <img src="header.svg" width="800" height="400" alt="Click to see the source">
+	<br>
 </div>
