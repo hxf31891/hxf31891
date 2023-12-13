@@ -195,8 +195,8 @@
 					border-right: .15em solid orange; 
 					white-space: nowrap; 
 					margin: 0 auto; 
-					letter-spacing: .15em;
-					animation: typing 3.5s steps(20, end), blink-caret .25s step-end infinite;
+					letter-spacing: .25em;
+					animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
 				}
 
 				@media (prefers-color-scheme: dark) {
