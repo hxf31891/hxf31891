@@ -3,11 +3,10 @@
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			<style>
 				.container {
-					height: 400px;
+					height: 340px;
 					display: flex;
 					align-items: center;
 					justify-content: center;
-					padding-bottom: 75px
 				}
 				
 			        #stars {
