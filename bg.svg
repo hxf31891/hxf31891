@@ -8,18 +8,18 @@
 					align-items: center;
 					justify-content: center;
 					padding-bottom: 80px;
-				  	background: radial-gradient(ellipse at top, #110c1e 0%, rgba(0,0,0,0) 100%);
-  					animation: nightSkyAnimation 150s linear infinite;
+<!-- 				  	background: radial-gradient(ellipse at top, #110c1e 0%, rgba(0,0,0,0) 100%);
+  					animation: nightSkyAnimation 150s linear infinite; -->
 				}
 
-				@keyframes nightSkyAnimation {
+<!-- 				@keyframes nightSkyAnimation {
 					0% {
 						background-position: 0% 0%;
 					}
 					100% {
 						background-position: 100% 100%;
 					}
-				}
+				} -->
 				
 			        #stars {
 					width: 1px;
@@ -209,13 +209,14 @@
 					border-right: 3px solid;
 					font-family: monospace;
 					font-size: 2em;
+					color: orange
 				}
-
+<!-- 
 				@media (prefers-color-scheme: dark) {
 					.typing-demo {
 						color: #fff;
 					}	
-				}
+				} -->
 				
 				@keyframes typing {
 					from {
