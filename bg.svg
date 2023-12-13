@@ -190,19 +190,17 @@
 			            }
 			        }
 
-				@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+			
 
-				.typewriter h1 {
-					font-size: 2em;
-					overflow: hidden; 
-					font-family: 'Anonymous Pro', monospace;  
-					border-right: .15em solid orange; 
-					white-space: nowrap; 
-					margin: 0 auto; 
-				
-					animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
-				}
+.typing-demo {
+  width: 22ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
 
 				@media (prefers-color-scheme: dark) {
 					h1 {
@@ -210,13 +208,16 @@
 					}	
 				}
 				
-		@keyframes typewriter{
-  from{width: 0;}
-  to{width: 24em;}
+@keyframes typing {
+  from {
+    width: 0
+  }
 }
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
 }
 			</style>
 			<div class="container">
@@ -230,8 +231,7 @@
 				<div class="spaceship">🛸</div>
 				<div class="spaceship2">🛸</div>
 				<div class="spaceship3">🛸</div>
-				<div class="typewriter">
-					<h1>Hey There! 👋</h1>
+				 <div class="typing-demo">Hey There! 👋
 				</div>
 			</div>
 		</div>
