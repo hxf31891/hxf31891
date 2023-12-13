@@ -196,7 +196,7 @@
 					white-space: nowrap; 
 					margin: 0 auto; 
 					letter-spacing: .15em;
-					animation: typing 3.5s steps(20, end), blink-caret .75s step-end infinite;
+					animation: typing 3.5s steps(30, end), blink-caret .75s step-end infinite;
 				}
 
 				@media (prefers-color-scheme: dark) {
