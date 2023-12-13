@@ -92,7 +92,7 @@
 			          top: 58vh;
 			          left: -10%;
 			          position: absolute;
-			          animation: animShip 5s linear infinite 10s
+			          animation: animShip 5s linear 1 10s
 			        }
 			        
 			        .spaceship2 {
@@ -100,7 +100,7 @@
 			          top: 55vh;
 			          right: -10%;
 			          position: absolute;
-			          animation: animShip2 5s linear infinite 22s
+			          animation: animShip2 5s linear 1 22s
 			        }
 			        
 			        .spaceship3 {
@@ -108,7 +108,7 @@
 			          top: 90vh;
 			          right: -10%;
 			          position: absolute;
-			          animation: animShip3 5s linear infinite 35s;
+			          animation: animShip3 5s linear 1 35s;
 			        }
 			        
 			        .satelite {
